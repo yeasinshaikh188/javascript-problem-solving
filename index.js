@@ -21,7 +21,7 @@ const x = {
 
 // 5----------------->
 function myFunction() {
-    alert("Hello World!");
+    // alert("Hello World!");
  }
  myFunction();
 
@@ -30,7 +30,7 @@ let person = {
     name: "John",
     age : 50
 }
-person = alert('age: 50');
+// person = alert('age: 50');
 
 // 7--------------->
 function clickTheButton (){
@@ -39,5 +39,30 @@ function clickTheButton (){
 }
 
 // 8-------------->
+const cars = ["Volvo", "Jeep", "Mercedes"];
+// cars = alert("Volvo");
+
+const Brand = ["Volvo", "Jeep", "Mercedes"]; 
+Brand[0] = "Ford";
+
+// 9-------------->
+const num = 23;
+const rand = Math.random(num);
+
+const bigNumber = Math.max(10, 20);
+
+const squarE = Math.sqrt(9);
+
+// 10-------------->
+let xxx = 10;
+let yy = 5;
+let xy = xxx > yy;
+alert(xy);
+
+let Age = 20;
+Age >18 ? alert('To young') : alert('Old Enough');
+
+
+
 
 
